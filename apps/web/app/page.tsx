@@ -8,6 +8,7 @@ type Props = Omit<ImageProps, "src"> & {
   srcDark: string;
 };
 
+
 const ThemeImage = (props: Props) => {
   const { srcLight, srcDark, ...rest } = props;
 
